@@ -52,6 +52,7 @@ return packer.startup(function(use)
     use 'moll/vim-bbye'
   use { "akinsho/toggleterm.nvim", commit = "2a787c426ef00cb3488c11b14f5dcf892bbd0bda" }
   use { "goolord/alpha-nvim", commit = "0bb6fc0646bcd1cdb4639737a1cee8d6e08bcc31" }
+  use { "ahmedkhalf/project.nvim" }
     use {"folke/which-key.nvim"}
   use {
     'nvim-lualine/lualine.nvim',
