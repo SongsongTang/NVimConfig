@@ -1,7 +1,7 @@
 return{
     settings = {
-    cmd = {
-        { "cmake-language-server" },
-    },
+        cmd = {
+            { "cmake-language-server" },
+        },
     }
 }
