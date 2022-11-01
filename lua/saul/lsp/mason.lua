@@ -5,6 +5,7 @@ local servers = {
 	"jsonls",
     "clangd",
     "svls",
+    "texlab",
 }
 
 local settings = {
