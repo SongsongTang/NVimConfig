@@ -6,6 +6,7 @@ local servers = {
     "clangd",
     "svls",
     "texlab",
+    "cmake",
 }
 
 local settings = {
