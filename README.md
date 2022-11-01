@@ -4,3 +4,5 @@
 ```bash
 git clone https://github.com/SongsongTang/NVimConfig.git ~/.config/nvim
 ```
+## Optional
+Need [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html).
