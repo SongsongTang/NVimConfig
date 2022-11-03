@@ -1,12 +1,13 @@
 # My Neovim configuration based on LunarVim/Neovim-from-scratch
 ## Setup
 **IMPORTANT** Requires [Neovim v0.8.0](https://github.com/neovim/neovim/releases) and above.
+On Linux
 ```bash
 git clone https://github.com/SongsongTang/NVimConfig.git ~/.config/nvim
 ```
-or
+On Windows
 ```bash
-git clone https://github.com/SongsongTang/NVimConfig.git ~/Appdata/Local/nvim
+git clone https://github.com/SongsongTang/NVimConfig.git $HOME/AppData/Local/nvim
 ```
 ## Optional
 Need [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html).
