@@ -11,4 +11,4 @@ On Windows
 git clone https://github.com/SongsongTang/NVimConfig.git $HOME/AppData/Local/nvim
 ```
 ## Optional
-Need [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html).
+Need [Nodejs](https://nodejs.org/en/download/), [gcc](https://gcc.gnu.org/), and [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html).
