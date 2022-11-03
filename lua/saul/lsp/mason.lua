@@ -4,7 +4,7 @@ local servers = {
 	"pyright",
 	"jsonls",
     "clangd",
-    "svls",
+    --"svls",
     "texlab",
     "cmake",
 }
