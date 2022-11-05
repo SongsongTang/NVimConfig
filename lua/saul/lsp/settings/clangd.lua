@@ -1,5 +1,7 @@
 return {
   settings = {
-    cmd = { "clangd" },
+    cmd = {
+            "clangd",
+        },
   },
 }
