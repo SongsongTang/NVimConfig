@@ -5,7 +5,8 @@ local servers = {
     "jsonls",
     "clangd",
     --"svls",
-    "verible",
+    --"verible",
+    "svlangserver",
     "texlab",
     "cmake",
 }
