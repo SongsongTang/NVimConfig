@@ -105,6 +105,12 @@ return packer.startup(function(use)
   -- Github Copilot --
   use "github/copilot.vim"
 
+  -- ChatGPT --
+  use({
+    'terror/chatgpt.nvim',
+    run = 'pip3 install -r requirements.txt'
+  })
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
