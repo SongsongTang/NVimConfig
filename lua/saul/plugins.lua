@@ -92,9 +92,16 @@ return packer.startup(function(use)
 
   -- Treesitter
   use {
-    "nvim-treesitter/nvim-treesitter",
-    run = ":TSUpdate",
+      'nvim-treesitter/nvim-treesitter',
+      run = function()
+          local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+          ts_update()
+      end,
   }
+  --use {
+  --  "nvim-treesitter/nvim-treesitter",
+  --  run = ":TSUpdate",
+  --}
   --use "p00f/nvim-ts-rainbow"
   --use "nvim-treesitter/playground"
   use 'JoosepAlviste/nvim-ts-context-commentstring'
@@ -106,10 +113,10 @@ return packer.startup(function(use)
   use "github/copilot.vim"
 
   -- ChatGPT --
-  use({
-    'terror/chatgpt.nvim',
-    run = 'pip3 install -r requirements.txt'
-  })
+  --use({
+  --  'terror/chatgpt.nvim',
+  --  run = 'pip3 install -r requirements.txt'
+  --})
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
